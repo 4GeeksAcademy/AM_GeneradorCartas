@@ -1,5 +1,57 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
+body {
+    background: #0E7E12;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+}
 
-body{
-    background: white;
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.card {
+    display: inline-block;
+    background: #ffffff;
+    margin: 20px auto;
+    height: 400px;
+    width: 250px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+    font-family: 'Times New Roman', serif;
+}
+
+.top-suit, .bottom-suit {
+    font-size: 90px;
+}
+
+.top-suit {
+    position: absolute;
+    top: -20px;
+    left: 10px;
+}
+
+.bottom-suit {
+    position: absolute;
+    bottom: -20px;
+    right: 10px;
+}
+
+.number {
+    font-size: 90px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
